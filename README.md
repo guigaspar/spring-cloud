@@ -8,11 +8,11 @@ Microservices projects using Spring Cloud.
 
 I have five projects in this repository.
 
-netflix-eureka-naming-server          (Eureka Server)
-netflix-zuul-api-gateway-server       (Zuul Gateway)
-zipkin-distributed-tracing-server     (Zipkin Server)
-currency-exchange-service             (Micro Service - Hystrix)
-currency-conversion-service           (Micro Service - Ribbon/Feign)
+netflix-eureka-naming-server          (Eureka Server) </br>
+netflix-zuul-api-gateway-server       (Zuul Gateway) </br>
+zipkin-distributed-tracing-server     (Zipkin Server) </br>
+currency-exchange-service             (Micro Service - Hystrix) </br>
+currency-conversion-service           (Micro Service - Ribbon/Feign) </br>
 
 Links:
 
