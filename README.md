@@ -24,15 +24,15 @@ Links:
 
 `http://localhost:8070/currency-exchange/from/EUR/to/BRL` 	-> Instances of the currency exchange service
 
-http://localhost:8100/currency-conversion-feign/from/EUR/to/BRL/quantity/108   	-> Rest Call using Feign and Ribbon
+`http://localhost:8100/currency-conversion-feign/from/EUR/to/BRL/quantity/108`   	-> Rest Call using Feign and Ribbon
 
-http://localhost:8100/currency-conversion/from/EUR/to/BRL/quantity/108		    -> Rest Call using RestTemplate
+`http://localhost:8100/currency-conversion/from/EUR/to/BRL/quantity/108`		    -> Rest Call using RestTemplate
 
-http://localhost:8765/currency-exchange-service/currency-exchange/from/EUR/to/BRL	-> Using Zuul to call the currency exchange service 
+`http://localhost:8765/currency-exchange-service/currency-exchange/from/EUR/to/BRL`	-> Using Zuul to call the currency exchange service 
 
-http://localhost:8765/currency-conversion-service/currency-conversion-feign/from/EUR/to/BRL/quantity/108 -> Using Zuul to call the currency conversion service 
+`http://localhost:8765/currency-conversion-service/currency-conversion-feign/from/EUR/to/BRL/quantity/108` -> Using Zuul to call the currency conversion service 
 
-http://localhost:8765/currency-conversion-service/currency-conversion-feign/from/sdf/to/BRL/quantity/108 -> Hystrix FallBack
+`http://localhost:8765/currency-conversion-service/currency-conversion-feign/from/sdf/to/BRL/quantity/108` -> Hystrix FallBack
 
 ---
 
