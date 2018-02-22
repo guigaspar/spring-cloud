@@ -15,14 +15,14 @@ currency-exchange-service             (Micro Service - Hystrix)
 currency-conversion-service           (Micro Service - Ribbon/Feign)
 
 Links:
-http://localhost:8761/      	  -> Eureka Naming Server
 
-http://localhost:9411           -> Zipkin Server
+`http://localhost:8761/`      	  -> Eureka Naming Server
 
-http://localhost:8071/currency-exchange/from/EUR/to/BRL		-> Instances of the currency exchange service
+`http://localhost:9411`           -> Zipkin Server
 
-http://localhost:8070/currency-exchange/from/EUR/to/BRL 	-> Instances of the currency exchange service
+`http://localhost:8071/currency-exchange/from/EUR/to/BRL`		-> Instances of the currency exchange service
 
+`http://localhost:8070/currency-exchange/from/EUR/to/BRL` 	-> Instances of the currency exchange service
 
 http://localhost:8100/currency-conversion-feign/from/EUR/to/BRL/quantity/108   	-> Rest Call using Feign and Ribbon
 
@@ -34,6 +34,7 @@ http://localhost:8765/currency-conversion-service/currency-conversion-feign/from
 
 http://localhost:8765/currency-conversion-service/currency-conversion-feign/from/sdf/to/BRL/quantity/108 -> Hystrix FallBack
 
+---
 
 Order to start the projects:
 
